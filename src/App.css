@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=PT+Sans&family=Raleway:wght@500&family=Rubik:wght@500&family=Wix+Madefor+Text&family=Ysabeau:wght@600&display=swap");
+body {
+  background-color: #282a3a;
+  color: azure;
+  font-family: "Lora", serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
+  /* font-family: 'Wix Madefor Text', sans-serif; */
+  /* font-family: 'Ysabeau', sans-serif; */
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.grid-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin-top: 30px;
+}
+.grid-child h3 {
+  font-weight: 700;
+  font-size: 15px;
+}
+.grid-child:hover {
+  background-color: azure;
+  color: #282a3a;
+}
+.grid-child {
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  padding: 4px;
+  cursor: pointer;
+}
+.action-btn:hover {
+  background-color: whitesmoke;
+  color: rgb(31, 38, 33);
+}
+.action-btn {
+  background-color: rgb(31, 38, 33);
+  margin-top: 20px;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 150px;
+  height: 47px;
+}
+@media (max-width: 768px) {
+  .textarea {
+    padding: 20px;
+  }
+
+  textarea {
+    width: 100%;
+    resize: vertical;
+  }
+
+  .action-btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .result-text {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+}
