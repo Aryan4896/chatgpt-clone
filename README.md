@@ -1,2 +1,2 @@
 # chatgpt-clone
-Created with CodeSandbox
+ https://jvtmzp-3000.csb.app/
